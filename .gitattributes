@@ -7,3 +7,4 @@ README.txt filter=lfs diff=lfs merge=lfs -text
 run.bat filter=lfs diff=lfs merge=lfs -text
 WebScanner.jar filter=lfs diff=lfs merge=lfs -text
 core/jre/bin/jfxwebkit.dll filter=lfs diff=lfs merge=lfs -text
+core/jre/lib/rt.jar filter=lfs diff=lfs merge=lfs -text

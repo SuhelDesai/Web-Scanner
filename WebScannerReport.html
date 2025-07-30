@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang='en'><head>
+<meta charset='UTF-8'><title>MaxAnalyzer Audit Report</title>
+<style>
+body { font-family:'Segoe UI',sans-serif; background:#f0f2f5; padding:20px; }
+header, footer { background:#2c3e50; color:white; padding:20px; text-align:center; }
+.section { background:white; border-radius:8px; padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.05); margin:20px auto; max-width:900px; }
+table { width:100%; border-collapse:collapse; margin-top:10px; }
+th, td { padding:10px; border-bottom:1px solid #ddd; text-align:left; }
+th { background:#e9ecef; }
+.ok { color:green; font-weight:bold; } .fail { color:red; font-weight:bold; } .moderate { color:orange; font-weight:bold; }
+</style></head><body>
+<header><h1>Web Scanner Report</h1>
+<p>Scan Date: Thu Jul 31 00:26:43 IST 2025 | Rule Pack: HybridAuditX-v1.0</p></header>
+<div class='section'><h2>Target Info</h2><table>
+<tr><th>Target URL</th><td>https://www.flipkart.com/</td></tr>
+<tr><th>Request Protocol</th><td>HTTPS</td></tr>
+</table></div>
+<div class='section'><h2>Findings</h2><table>
+<tr><th>Check</th><th>Status</th></tr>
+<tr><td>Resolved IP</td><td class='fail'>163.53.76.86</td></tr>
+<tr><td>Server Banner</td><td class='fail'>nginx</td></tr>
+<tr><td>X-Powered Banner</td><td class=''>Not Available</td></tr>
+<tr><td>Access-Control-Allow-Origin</td><td class='fail'>Not Available</td></tr>
+<tr><td><b>Security Headers</b></td><td class=''></td></tr>
+<tr><td>Content-Security-Policy</td><td class='ok'>Present</td></tr>
+<tr><td>Strict-Transport-Security</td><td class='fail'>Missing</td></tr>
+<tr><td>X-Content-Type-Options</td><td class='fail'>Missing</td></tr>
+<tr><td>X-Frame-Options</td><td class='fail'>Missing</td></tr>
+<tr><td>X-XSS-Protection</td><td class='fail'>Missing</td></tr>
+<tr><td>Referrer-Policy</td><td class='fail'>Missing</td></tr>
+<tr><td>Permissions-Policy</td><td class='fail'>Missing</td></tr>
+<tr><td>Referrer Policy Check</td><td class='fail'>Missing Referrer-Policy</td></tr>
+</table></div>
+<div class='section'><h2>Cookie</h2><table>
+<tr><th>Cookie Name</th><th>HttpOnly</th><th>Secure</th><th>SameSite</th></tr>
+<tr><td>ud</td><td class='ok'>Yes</td><td class='fail'>No</td><td class='fail'>No</td></tr>
+<tr><td>K-ACTION</td><td class='ok'>Yes</td><td class='fail'>No</td><td class='fail'>No</td></tr>
+<tr><td>at</td><td class='ok'>Yes</td><td class='fail'>No</td><td class='fail'>No</td></tr>
+<tr><td>SN</td><td class='ok'>Yes</td><td class='fail'>No</td><td class='fail'>No</td></tr>
+<tr><td>T</td><td class='fail'>No</td><td class='ok'>Yes</td><td class='ok'>Yes</td></tr>
+</table></div>
+<footer>&copy; 2025 Max Security Tools. All rights reserved.</footer>
+</body></html>

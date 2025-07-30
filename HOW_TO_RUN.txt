@@ -1,0 +1,9 @@
+Java version 8 or above required to run the tool.
+
+Step1: Run the "run.bat".
+Step2: It will ask for Web URL, provide the URL and hit Enter.
+Step3: It will check security Headers and cookie security.
+
+Reports will be generated in HTML and md format.
+WebScannerReport.html
+WebScannerReport.md
